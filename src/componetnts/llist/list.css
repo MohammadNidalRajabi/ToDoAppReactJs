@@ -1,0 +1,136 @@
+.items_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.items_list h1 {
+  color: rgb(0, 0, 0);
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  counter-reset: item;
+  list-style-type: none;
+  line-height: 2.2;
+  margin-left: -40px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+
+}
+
+ol li {
+  display: flex;
+  position: relative;
+  margin: 10px;
+  width: 100%;
+}
+
+.Todo_card {
+  background-color: #6F38C5;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin: 5px 50px;
+  padding: 5px;
+}
+
+.Todo_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px;
+}
+
+.Todo_info h2,
+p {
+  color: white;
+  margin: 10px;
+}
+
+.Button_todo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: none;
+  margin: 0px;
+}
+
+button {
+  font-size: 40px;
+  margin: 10px;
+  border: 0px;
+}
+
+#true {
+  color: white;
+  background-color: green;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px black;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.mainpop {
+  width: 100%;
+  height: 100%;
+  transition-property: initial;
+  position: absolute;
+  display: grid;
+  background-color: hsl(0, 61%, 49%);
+  place-items: center;
+  z-index: 1;
+}
+
+#false {
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px black;
+}
+
+.alert {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+/**/
+/*
+ol li span {
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: cadetblue;
+}
+
+ol li:before {
+    content: counter(item) " ";
+    counter-increment: item;
+    color: #555221;
+    position: absolute;
+    top: 50%;
+    margin-top: -1em;
+    background: #c29115;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 2em;
+    font-weight: 700;
+} */

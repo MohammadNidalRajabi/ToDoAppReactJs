@@ -1,0 +1,41 @@
+input,select
+{
+    margin: 15px;
+    width: 10%;
+    padding: 15px 70px;
+    border-radius: 15px;
+}
+
+.chBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+input.largerCheckbox {
+    transform : scale(3);
+
+    
+}
+select,input,h1{
+    color: black;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+form 
+
+#submit {
+    padding: 15px 70px;
+}
